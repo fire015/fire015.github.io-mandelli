@@ -19,10 +19,6 @@ header img {
   color: #aaa;
 }
 
-.nav-top .nav-item {
-  border-bottom: 1px solid #121212;
-}
-
 .nav-book {
   padding-top: 10px;
 }
@@ -33,4 +29,10 @@ header img {
 
 .nav-book a:hover {
   color: #aaa;
+}
+
+@media (min-width: 576px) {
+  .nav-top .nav-item {
+    border-bottom: 1px solid #121212;
+  }
 }

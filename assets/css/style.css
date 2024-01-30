@@ -1,9 +1,9 @@
 header {
   margin: 40px 0;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Catamaran", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: 0.6px;
 }
 
 header img {
@@ -11,7 +11,7 @@ header img {
 }
 
 .nav-top a {
-  color: #121212;
+  color: rgba(18, 18, 18, 0.75);
 }
 
 .nav-top a:hover {
